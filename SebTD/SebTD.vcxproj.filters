@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{6b9e9b7f-f8bb-4673-8335-3fe8014eb0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{231ec570-e9a4-419e-8cf6-b8cd146aef7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="controller">
+      <UniqueIdentifier>{fdc1c5ac-f2da-4caf-8d02-de73f1acaaed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{fcdab8ae-b53d-4b9d-8fb2-d0b7204d6d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="level">
+      <UniqueIdentifier>{01cd88ae-180b-4d2b-a14e-de0de8fce498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{1e122d52-7c88-4bcb-aff9-b008ef97574f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model\sprite">
+      <UniqueIdentifier>{fe784f8f-d3fb-43e2-9ed5-a17c2443fba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{98d7266f-c9b6-4633-9191-a0e48001796c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\maps">
+      <UniqueIdentifier>{0db14e5e-5f9b-4b9b-bb0c-f8d0cffa4a4f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="view.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+    <ClCompile Include="sprite.cpp">
+      <Filter>model\sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="level.cpp">
+      <Filter>level</Filter>
+    </ClCompile>
+    <ClCompile Include="sprites.cpp">
+      <Filter>model\sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="view.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>view</Filter>
+    </ClInclude>
+    <ClInclude Include="sprite.h">
+      <Filter>model\sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="level.h">
+      <Filter>level</Filter>
+    </ClInclude>
+    <ClInclude Include="sprites.h">
+      <Filter>model\sprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TestMap.txt">
+      <Filter>resource\maps</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
