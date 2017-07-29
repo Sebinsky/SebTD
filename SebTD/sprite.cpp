@@ -11,7 +11,6 @@ namespace sprite
 
 	Sprite::Sprite(unsigned int value, float rValue, float gValue, float bValue, float aValue)
 	{
-		//github test
 		rValue = rValue;
 		gValue = gValue; 
 		bValue = bValue;
